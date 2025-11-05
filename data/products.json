@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": "g001",
+      "name": "Smart Glass Pro",
+      "price": 499,
+      "currency": "USD",
+      "colors": ["Black", "Silver"],
+      "sizes": ["S", "M", "L"],
+      "images": [
+        "assets/g001-hero.jpg",
+        "assets/g001-side.gif",
+        "assets/g001-demo.mp4"
+      ],
+      "shortDescription": "AI-powered smart glasses with 4K recording and real-time assistant.",
+      "longDescription": "Smart Glass Pro features an integrated camera, AI assistant, long battery life, and lightweight frame. Experience the future of wearable technology with our flagship model."
+    },
+    {
+      "id": "g002",
+      "name": "Vision Lite",
+      "price": 299,
+      "currency": "USD",
+      "colors": ["Matte Black", "Clear"],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/g002-hero.jpg",
+        "assets/g002-demo.mp4"
+      ],
+      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
+      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point."
+    },
+    {
+      "id": "g003",
+      "name": "Elite Vision X",
+      "price": 799,
+      "currency": "USD",
+      "colors": ["Titanium", "Carbon Black", "Silver"],
+      "sizes": ["S", "M", "L", "XL"],
+      "images": [
+        "assets/g003-hero.jpg",
+        "assets/g003-side.gif",
+        "assets/g003-detail.jpg",
+        "assets/g003-demo.mp4"
+      ],
+      "shortDescription": "Premium smart glasses with advanced AI and AR capabilities.",
+      "longDescription": "Elite Vision X is our top-of-the-line model featuring advanced AI processing, augmented reality overlay, premium materials, and extended battery life. Perfect for professionals and tech enthusiasts."
+    }
+  ]
+}
+
