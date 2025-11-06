@@ -8,9 +8,9 @@
       "colors": ["Black", "Silver"],
       "sizes": ["S", "M", "L"],
       "images": [
-        "assets/g001-hero.jpg",
-        "assets/g001-side.gif",
-        "assets/g001-demo.mp4"
+        "assets/Glass01a.jpg",
+        "assets/Glass01b.gif",
+        "assets/Glass01c.mp4"
       ],
       "shortDescription": "AI-powered smart glasses with 4K recording and real-time assistant.",
       "longDescription": "Smart Glass Pro features an integrated camera, AI assistant, long battery life, and lightweight frame. Experience the future of wearable technology with our flagship model."
