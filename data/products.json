@@ -5,7 +5,11 @@
       "name": "Smart Glass Pro",
       "price": 499,
       "currency": "USD",
-      "colors": ["Black", "Silver"],
+      "models": [
+        { "name": "Classic Black", "imageIndex": 0 },
+        { "name": "Silver Edition", "imageIndex": 1 },
+        { "name": "Limited Gold", "imageIndex": 2 }
+      ],
       "sizes": ["S", "M", "L"],
       "images": [
         "assets/Glass01a.jpg",
@@ -17,14 +21,19 @@
     },
     {
       "id": "g002",
-      "name": "Vision Lite",
-      "price": 299,
-      "currency": "USD",
-      "colors": ["Matte Black", "Clear"],
+      "name": "YH-HY-01 SERIES",
+      "price": 15000000,
+      "currency": "VND",
+      "models": [
+        { "name": "Argent Model", "imageIndex": 0 },
+        { "name": "Gunmetal Gray", "imageIndex": 1 },
+        { "name": "Special Edition", "imageIndex": 2 }
+      ],
       "sizes": ["M", "L"],
       "images": [
-        "assets/g002-hero.jpg",
-        "assets/g002-demo.mp4"
+        "assets/Glass02a.jpg",
+        "assets/Glass02b.jpg",
+        "assets/Glass02c.jpg"
       ],
       "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
       "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point."
@@ -34,13 +43,17 @@
       "name": "Elite Vision X",
       "price": 799,
       "currency": "USD",
-      "colors": ["Titanium", "Carbon Black", "Silver"],
+      "models": [
+        { "name": "Titanium Pro", "imageIndex": 0 },
+        { "name": "Carbon Black", "imageIndex": 1 },
+        { "name": "Silver Premium", "imageIndex": 2 }
+      ],
       "sizes": ["S", "M", "L", "XL"],
       "images": [
-        "assets/g003-hero.jpg",
-        "assets/g003-side.gif",
-        "assets/g003-detail.jpg",
-        "assets/g003-demo.mp4"
+        "assets/Glass01a.jpg",
+        "assets/Glass01b.jpg",
+        "assets/Glass01c.jpg",
+        "assets/hero-media.mp4"
       ],
       "shortDescription": "Premium smart glasses with advanced AI and AR capabilities.",
       "longDescription": "Elite Vision X is our top-of-the-line model featuring advanced AI processing, augmented reality overlay, premium materials, and extended battery life. Perfect for professionals and tech enthusiasts."
