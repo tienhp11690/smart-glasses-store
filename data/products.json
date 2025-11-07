@@ -2,23 +2,25 @@
   "products": [
     {
       "id": "g001",
-      "name": "Smart Glass Pro",
-      "price": 499,
-      "currency": "USD",
+      "name": "YH-HY-03 SERIES",
+      "price": 800000,
+      "currency": "VND",
       "category": "camera",
-      "thumbnail": "assets/thumbnails/Glass01a-thumb.jpg",
+      "thumbnail": "assets/thumbnails/Glass01.jpg",
       "features": ["4K Recording", "AI Assistant", "Long Battery", "Lightweight"],
       "features_vi": ["Quay 4K", "Trợ lý AI", "Pin lâu", "Nhẹ"],
       "models": [
-        { "name": "Classic Black", "imageIndex": 0 },
-        { "name": "Silver Edition", "imageIndex": 1 },
-        { "name": "Limited Gold", "imageIndex": 2 }
+        { "name": "YH-HY-0311", "imageIndex": 0 },
+        { "name": "YH-HY-0322", "imageIndex": 1 },
+        { "name": "YH-HY-0332", "imageIndex": 2 }
       ],
       "sizes": ["S", "M", "L"],
       "images": [
         "assets/Glass01a.jpg",
         "assets/Glass01b.jpg",
-        "assets/Glass01c.jpg"
+        "assets/Glass01c.jpg",
+        "assets/Glass01d.jpg",
+        "assets/Glass01e.jpg"
       ],
       "shortDescription": "AI-powered smart glasses with 4K recording and real-time assistant.",
       "shortDescription_vi": "Kính thông minh tích hợp AI với khả năng quay 4K và trợ lý thời gian thực.",
@@ -28,7 +30,7 @@
     {
       "id": "g002",
       "name": "YH-HY-01 SERIES",
-      "price": 15000000,
+      "price": 1500000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass02.jpg",
@@ -54,30 +56,59 @@
     },
     {
       "id": "g003",
-      "name": "Elite Vision X",
-      "price": 799,
-      "currency": "USD",
+      "name": "YH-HY-02 SERIES",
+      "price": 0,
+      "currency": "VND",
       "category": "camera",
-      "thumbnail": "assets/thumbnails/Glass01a-thumb.jpg",
+      "thumbnail": "assets/thumbnails/Glass03.jpg",
       "features": ["AR Overlay", "Advanced AI", "Premium Materials", "Extended Battery"],
       "features_vi": ["Lớp phủ AR", "AI tiên tiến", "Chất liệu cao cấp", "Pin mở rộng"],
       "models": [
-        { "name": "Titanium Pro", "imageIndex": 0 },
-        { "name": "Carbon Black", "imageIndex": 1 },
-        { "name": "Silver Premium", "imageIndex": 2 }
+        { "name": "YH-HY-0211", "imageIndex": 0 },
+        { "name": "YH-HY-0233", "imageIndex": 1 }
       ],
       "sizes": ["S", "M", "L", "XL"],
       "images": [
-        "assets/Glass01a.jpg",
-        "assets/Glass01b.jpg",
-        "assets/Glass01c.jpg",
-        "assets/hero-media.mp4"
+        "assets/Glass03a.jpg",
+        "assets/Glass03b.jpg",
+        "assets/Glass03c.jpg",
+        "assets/Glass03d.jpg"
       ],
       "shortDescription": "Premium smart glasses with advanced AI and AR capabilities.",
       "shortDescription_vi": "Kính thông minh cao cấp với AI tiên tiến và khả năng AR.",
       "longDescription": "Elite Vision X is our top-of-the-line model featuring advanced AI processing, augmented reality overlay, premium materials, and extended battery life. Perfect for professionals and tech enthusiasts.",
       "longDescription_vi": "Elite Vision X là mẫu cao cấp nhất của chúng tôi với xử lý AI tiên tiến, lớp phủ thực tế tăng cường, chất liệu cao cấp và pin bền. Hoàn hảo cho các chuyên gia và người đam mê công nghệ."
     }
+    {
+      "id": "g004",
+      "name": "YH-HY-05 SERIES",
+      "price": 1500000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass04.jpg",
+      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
+      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "models": [
+        { "name": "YH-HY-0511", "imageIndex": 0 },
+        { "name": "YH-HY-0522", "imageIndex": 1 },
+        { "name": "YH-HY-0514", "imageIndex": 2 },
+        { "name": "YH-HY-0524", "imageIndex": 3 },
+        { "name": "YH-HY-0534", "imageIndex": 4 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass04a.jpg",
+        "assets/Glass04b.jpg",
+        "assets/Glass04c.jpg",
+        "assets/Glass04d.jpg",
+        "assets/Glass04e.jpg",
+        "assets/Glass04f.jpg"
+      ],
+      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
+      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
+      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
+      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+    },
   ]
 }
 
