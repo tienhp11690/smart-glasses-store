@@ -6,6 +6,7 @@
       "price": 499,
       "currency": "USD",
       "category": "camera",
+      "thumbnail": "assets/thumbnails/Glass01a-thumb.jpg",
       "models": [
         { "name": "Classic Black", "imageIndex": 0 },
         { "name": "Silver Edition", "imageIndex": 1 },
@@ -26,6 +27,7 @@
       "price": 15000000,
       "currency": "VND",
       "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass02a-thumb.jpg",
       "models": [
         { "name": "YH-HY-0111", "imageIndex": 0 },
         { "name": "YH-HY-0122", "imageIndex": 1 },
@@ -46,6 +48,7 @@
       "price": 799,
       "currency": "USD",
       "category": "camera",
+      "thumbnail": "assets/thumbnails/Glass01a-thumb.jpg",
       "models": [
         { "name": "Titanium Pro", "imageIndex": 0 },
         { "name": "Carbon Black", "imageIndex": 1 },
