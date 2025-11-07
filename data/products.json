@@ -7,6 +7,7 @@
       "currency": "USD",
       "category": "camera",
       "thumbnail": "assets/thumbnails/Glass01a-thumb.jpg",
+      "features": ["4K Recording", "AI Assistant", "Long Battery", "Lightweight"],
       "models": [
         { "name": "Classic Black", "imageIndex": 0 },
         { "name": "Silver Edition", "imageIndex": 1 },
@@ -28,6 +29,7 @@
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass02.jpg",
+      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "models": [
         { "name": "YH-HY-0111", "imageIndex": 0 },
         { "name": "YH-HY-0122", "imageIndex": 1 },
@@ -51,6 +53,7 @@
       "currency": "USD",
       "category": "camera",
       "thumbnail": "assets/thumbnails/Glass01a-thumb.jpg",
+      "features": ["AR Overlay", "Advanced AI", "Premium Materials", "Extended Battery"],
       "models": [
         { "name": "Titanium Pro", "imageIndex": 0 },
         { "name": "Carbon Black", "imageIndex": 1 },
