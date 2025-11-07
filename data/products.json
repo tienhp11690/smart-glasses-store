@@ -5,6 +5,7 @@
       "name": "Smart Glass Pro",
       "price": 499,
       "currency": "USD",
+      "category": "camera",
       "models": [
         { "name": "Classic Black", "imageIndex": 0 },
         { "name": "Silver Edition", "imageIndex": 1 },
@@ -24,10 +25,11 @@
       "name": "YH-HY-01 SERIES",
       "price": 15000000,
       "currency": "VND",
+      "category": "fashion",
       "models": [
-        { "name": "Argent Model", "imageIndex": 0 },
-        { "name": "Gunmetal Gray", "imageIndex": 1 },
-        { "name": "Special Edition", "imageIndex": 2 }
+        { "name": "YH-HY-0111", "imageIndex": 0 },
+        { "name": "YH-HY-0122", "imageIndex": 1 },
+        { "name": "YH-HY-0132", "imageIndex": 2 }
       ],
       "sizes": ["M", "L"],
       "images": [
@@ -43,6 +45,7 @@
       "name": "Elite Vision X",
       "price": 799,
       "currency": "USD",
+      "category": "camera",
       "models": [
         { "name": "Titanium Pro", "imageIndex": 0 },
         { "name": "Carbon Black", "imageIndex": 1 },
