@@ -9,6 +9,36 @@
       "thumbnail": "assets/thumbnails/Glass01.jpg",
       "features": ["4K Recording", "AI Assistant", "Long Battery", "Lightweight"],
       "features_vi": ["Quay 4K", "Trợ lý AI", "Pin lâu", "Nhẹ"],
+      "featuresGrid": [
+        {
+          "title": "800W Pixels Camera",
+          "title_vi": "Camera 800W Pixels",
+          "description": "HD Photo & Video Recording with 1080P 30fps",
+          "description_vi": "Quay video HD 1080P 30fps",
+          "image": "assets/features/ai-photo-transparent.jpg"
+        },
+        {
+          "title": "AI Photo Recognition",
+          "title_vi": "Nhận Diện AI",
+          "description": "6-in-1 AI Powers All Scenarios",
+          "description_vi": "6 tính năng AI cho mọi tình huống",
+          "image": "assets/features/smart-glasses-hero.jpg"
+        },
+        {
+          "title": "AI Chat & Voice",
+          "title_vi": "Trò Chuyện AI",
+          "description": "Multi-role AI online conversation",
+          "description_vi": "Đối thoại AI đa vai trò trực tuyến",
+          "image": "assets/features/ai-chat.jpg"
+        },
+        {
+          "title": "Smart Features",
+          "title_vi": "Tính Năng Thông Minh",
+          "description": "AI Role-play, Scene Record, Translation",
+          "description_vi": "Nhập vai AI, Ghi cảnh, Dịch thuật",
+          "image": "assets/features/ai-features.jpg"
+        }
+      ],
       "models": [
         { "name": "YH-HY-0311", "imageIndex": 0 },
         { "name": "YH-HY-0322", "imageIndex": 1 },
@@ -36,6 +66,36 @@
       "thumbnail": "assets/thumbnails/Glass02.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "featuresGrid": [
+        {
+          "title": "Multiple Lens Options",
+          "title_vi": "Đa Dạng Tùy Chọn Tròng",
+          "description": "Sunglasses, blue-blocking, photochromic lenses",
+          "description_vi": "Tròng râm, chống ánh sáng xanh, đổi màu",
+          "image": "assets/features/lens-options.jpg"
+        },
+        {
+          "title": "Music Control",
+          "title_vi": "Điều Khiển Nhạc",
+          "description": "Delicate sound quality, immersive experience",
+          "description_vi": "Chất lượng âm thanh tinh tế, trải nghiệm sống động",
+          "image": "assets/features/music-control.jpg"
+        },
+        {
+          "title": "Long Battery Life",
+          "title_vi": "Pin Bền Lâu",
+          "description": "260mAh large-capacity battery",
+          "description_vi": "Pin dung lượng lớn 260mAh",
+          "image": "assets/features/battery-life.jpg"
+        },
+        {
+          "title": "IP66 Waterproof",
+          "title_vi": "Chống Nước IP66",
+          "description": "Dust, water & sweat resistant",
+          "description_vi": "Chống bụi, nước và mồ hôi",
+          "image": "assets/features/waterproof.jpg"
+        }
+      ],
       "models": [
         { "name": "YH-HY-0111", "imageIndex": 0 },
         { "name": "YH-HY-0122", "imageIndex": 1 },
@@ -63,6 +123,50 @@
       "thumbnail": "assets/thumbnails/Glass03.jpg",
       "features": ["AR Overlay", "Advanced AI", "Premium Materials", "Extended Battery"],
       "features_vi": ["Lớp phủ AR", "AI tiên tiến", "Chất liệu cao cấp", "Pin mở rộng"],
+      "featuresGrid": [
+        {
+          "title": "Health Monitoring",
+          "title_vi": "Theo Dõi Sức Khỏe",
+          "description": "HR & SpO₂ tracking, real-time health tabs",
+          "description_vi": "Theo dõi nhịp tim & SpO₂ thời gian thực",
+          "image": "assets/features/health-monitoring.jpg"
+        },
+        {
+          "title": "Temperature Measurement",
+          "title_vi": "Đo Nhiệt Độ",
+          "description": "Monitor body temperature at home or outdoors",
+          "description_vi": "Theo dõi nhiệt độ cơ thể ở nhà hoặc ngoài trời",
+          "image": "assets/features/temperature.jpg"
+        },
+        {
+          "title": "UV Detection",
+          "title_vi": "Phát Hiện UV",
+          "description": "Real-time UV intensity monitoring",
+          "description_vi": "Theo dõi cường độ UV thời gian thực",
+          "image": "assets/features/uv-detection.jpg"
+        },
+        {
+          "title": "AI Translation",
+          "title_vi": "Dịch Thuật AI",
+          "description": "Custom translation for 100+ languages",
+          "description_vi": "Dịch tùy chỉnh cho hơn 100 ngôn ngữ",
+          "image": "assets/features/ai-translation.jpg"
+        },
+        {
+          "title": "AI Conversation",
+          "title_vi": "Đối Thoại AI",
+          "description": "Vast knowledge treasury to answer questions",
+          "description_vi": "Kho tri thức rộng lớn để trả lời câu hỏi",
+          "image": "assets/features/ai-conversation.jpg"
+        },
+        {
+          "title": "Health Management",
+          "title_vi": "Quản Lý Sức Khỏe",
+          "description": "UV + HR & SpO₂ Health Management AI Smart Glasses",
+          "description_vi": "Kính thông minh AI quản lý UV + Nhịp tim & SpO₂",
+          "image": "assets/features/health-management.jpg"
+        }
+      ],
       "models": [
         { "name": "YH-HY-0211", "imageIndex": 0 },
         { "name": "YH-HY-0233", "imageIndex": 1 }
@@ -88,6 +192,36 @@
       "thumbnail": "assets/thumbnails/Glass04.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "featuresGrid": [
+        {
+          "title": "W630 AI Recognition",
+          "title_vi": "Nhận Diện AI W630",
+          "description": "8MP high-definition with EIS and OIS",
+          "description_vi": "8MP độ phân giải cao với EIS và OIS",
+          "image": "assets/features/w630-specs.jpg"
+        },
+        {
+          "title": "Multiple Lens Options",
+          "title_vi": "Đa Dạng Tùy Chọn Tròng",
+          "description": "Sunglasses, Anti-blue Light, Photochromic",
+          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
+          "image": "assets/features/lens-options.jpg"
+        },
+        {
+          "title": "Smart Translation",
+          "title_vi": "Dịch Thông Minh",
+          "description": "Removes language barriers for seamless communication",
+          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
+          "image": "assets/features/ai-translation.jpg"
+        },
+        {
+          "title": "All Features",
+          "title_vi": "Tất Cả Tính Năng",
+          "description": "Seven reasons to choose our smart glasses",
+          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
+          "image": "assets/features/seven-reasons.jpg"
+        }
+      ],
       "models": [
         { "name": "YH-HY-0511", "imageIndex": 0 },
         { "name": "YH-HY-0522", "imageIndex": 1 },
