@@ -27,7 +27,7 @@
       "price": 15000000,
       "currency": "VND",
       "category": "fashion",
-      "thumbnail": "assets/thumbnails/Glass02a-thumb.jpg",
+      "thumbnail": "assets/thumbnails/Glass02.jpg",
       "models": [
         { "name": "YH-HY-0111", "imageIndex": 0 },
         { "name": "YH-HY-0122", "imageIndex": 1 },
