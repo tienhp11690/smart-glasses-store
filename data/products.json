@@ -242,7 +242,263 @@
       "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
       "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
       "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+    },
+    {
+      "id": "g005",
+      "name": "YH-HY-06 SERIES",
+      "price": 1500000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass05.jpg",
+      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
+      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "featuresGrid": [
+        {
+          "title": "W630 AI Recognition",
+          "title_vi": "Nhận Diện AI W630",
+          "description": "8MP high-definition with EIS and OIS",
+          "description_vi": "8MP độ phân giải cao với EIS và OIS",
+          "image": "assets/features/w630-specs.jpg"
+        },
+        {
+          "title": "Multiple Lens Options",
+          "title_vi": "Đa Dạng Tùy Chọn Tròng",
+          "description": "Sunglasses, Anti-blue Light, Photochromic",
+          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
+          "image": "assets/features/lens-options.jpg"
+        },
+        {
+          "title": "Smart Translation",
+          "title_vi": "Dịch Thông Minh",
+          "description": "Removes language barriers for seamless communication",
+          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
+          "image": "assets/features/ai-translation.jpg"
+        },
+        {
+          "title": "All Features",
+          "title_vi": "Tất Cả Tính Năng",
+          "description": "Seven reasons to choose our smart glasses",
+          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
+          "image": "assets/features/seven-reasons.jpg"
+        }
+      ],
+      "models": [
+        { "name": "YH-HY-0614", "imageIndex": 0 },
+        { "name": "YH-HY-0634", "imageIndex": 1 },
+        { "name": "YH-HY-0622", "imageIndex": 2 },
+        { "name": "YH-HY-0632", "imageIndex": 3 },
+        { "name": "YH-HY-0633", "imageIndex": 4 },
+        { "name": "YH-HY-0634", "imageIndex": 5 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass05a.jpg",
+        "assets/Glass05b.jpg",
+        "assets/Glass05c.jpg",
+        "assets/Glass05d.jpg",
+        "assets/Glass05e.jpg",
+        "assets/Glass05f.jpg",
+        "assets/Glass05g.jpg",
+        "assets/Glass05h.jpg"
+      ],
+      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
+      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
+      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
+      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+    },
+    {
+      "id": "g006",
+      "name": "YH-HY-60 SERIES",
+      "price": 1500000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass05.jpg",
+      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
+      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "featuresGrid": [
+        {
+          "title": "W630 AI Recognition",
+          "title_vi": "Nhận Diện AI W630",
+          "description": "8MP high-definition with EIS and OIS",
+          "description_vi": "8MP độ phân giải cao với EIS và OIS",
+          "image": "assets/features/w630-specs.jpg"
+        },
+        {
+          "title": "Multiple Lens Options",
+          "title_vi": "Đa Dạng Tùy Chọn Tròng",
+          "description": "Sunglasses, Anti-blue Light, Photochromic",
+          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
+          "image": "assets/features/lens-options.jpg"
+        },
+        {
+          "title": "Smart Translation",
+          "title_vi": "Dịch Thông Minh",
+          "description": "Removes language barriers for seamless communication",
+          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
+          "image": "assets/features/ai-translation.jpg"
+        },
+        {
+          "title": "All Features",
+          "title_vi": "Tất Cả Tính Năng",
+          "description": "Seven reasons to choose our smart glasses",
+          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
+          "image": "assets/features/seven-reasons.jpg"
+        }
+      ],
+      "models": [
+        { "name": "YH-HY-6064", "imageIndex": 0 },
+        { "name": "YH-HY-6026", "imageIndex": 1 },
+        { "name": "YH-HY-6042", "imageIndex": 2 },
+        { "name": "YH-HY-6046", "imageIndex": 3 },
+        { "name": "YH-HY-6062", "imageIndex": 4 },
+        { "name": "YH-HY-6022", "imageIndex": 5 },
+        { "name": "YH-HY-6024", "imageIndex": 6 },
+        { "name": "YH-HY-6025", "imageIndex": 7 },
+        { "name": "YH-HY-6066", "imageIndex": 8 },
+        { "name": "YH-HY-6044", "imageIndex": 9 },
+        { "name": "YH-HY-6045", "imageIndex": 10 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass06a.jpg",
+        "assets/Glass06b.jpg",
+        "assets/Glass06c.jpg",
+        "assets/Glass06d.jpg",
+        "assets/Glass06e.jpg",
+        "assets/Glass06f.jpg",
+        "assets/Glass06g.jpg",
+        "assets/Glass06h.jpg",
+        "assets/Glass06i.jpg",
+        "assets/Glass06j.jpg",
+        "assets/Glass06k.jpg",
+        "assets/Glass06l.jpg"
+      ],
+      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
+      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
+      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
+      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+    },
+    {
+      "id": "g007",
+      "name": "YH-HY-08 SERIES",
+      "price": 1500000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass05.jpg",
+      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
+      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "featuresGrid": [
+        {
+          "title": "W630 AI Recognition",
+          "title_vi": "Nhận Diện AI W630",
+          "description": "8MP high-definition with EIS and OIS",
+          "description_vi": "8MP độ phân giải cao với EIS và OIS",
+          "image": "assets/features/w630-specs.jpg"
+        },
+        {
+          "title": "Multiple Lens Options",
+          "title_vi": "Đa Dạng Tùy Chọn Tròng",
+          "description": "Sunglasses, Anti-blue Light, Photochromic",
+          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
+          "image": "assets/features/lens-options.jpg"
+        },
+        {
+          "title": "Smart Translation",
+          "title_vi": "Dịch Thông Minh",
+          "description": "Removes language barriers for seamless communication",
+          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
+          "image": "assets/features/ai-translation.jpg"
+        },
+        {
+          "title": "All Features",
+          "title_vi": "Tất Cả Tính Năng",
+          "description": "Seven reasons to choose our smart glasses",
+          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
+          "image": "assets/features/seven-reasons.jpg"
+        }
+      ],
+      "models": [
+        { "name": "YH-HY-0855", "imageIndex": 0 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass07a.jpg",
+        "assets/Glass07b.jpg"
+      ],
+      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
+      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
+      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
+      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+    },
+    {
+      "id": "g008",
+      "name": "AIMB-G2 SERIES",
+      "price": 1500000,
+      "currency": "VND",
+      "category": "camera",
+      "thumbnail": "assets/thumbnails/Glass05.jpg",
+      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
+      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "featuresGrid": [
+        {
+          "title": "W630 AI Recognition",
+          "title_vi": "Nhận Diện AI W630",
+          "description": "8MP high-definition with EIS and OIS",
+          "description_vi": "8MP độ phân giải cao với EIS và OIS",
+          "image": "assets/features/w630-specs.jpg"
+        },
+        {
+          "title": "Multiple Lens Options",
+          "title_vi": "Đa Dạng Tùy Chọn Tròng",
+          "description": "Sunglasses, Anti-blue Light, Photochromic",
+          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
+          "image": "assets/features/lens-options.jpg"
+        },
+        {
+          "title": "Smart Translation",
+          "title_vi": "Dịch Thông Minh",
+          "description": "Removes language barriers for seamless communication",
+          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
+          "image": "assets/features/ai-translation.jpg"
+        },
+        {
+          "title": "All Features",
+          "title_vi": "Tất Cả Tính Năng",
+          "description": "Seven reasons to choose our smart glasses",
+          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
+          "image": "assets/features/seven-reasons.jpg"
+        }
+      ],
+      "models": [
+        { "name": "Black Frame", "imageIndex": 0 },
+        { "name": "White Frame", "imageIndex": 0 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass08a.jpg",
+        "assets/Glass08b.jpg",
+        "assets/Glass08c.jpg",
+        "assets/Glass08d.jpg",
+        "assets/Glass08e.jpg",
+        "assets/Glass08f.jpg",
+        "assets/Glass08g.jpg",
+        "assets/Glass08h.jpg",
+        "assets/Glass08i.jpg",
+        "assets/Glass08j.jpg",
+        "assets/Glass08k.jpg",
+        "assets/Glass08l.jpg",
+        "assets/Glass08m.jpg",
+        "assets/Glass08n.jpg",
+        "assets/Glass08o.jpg",
+        "assets/Glass08p.jpg",
+        "assets/Glass08q.jpg",
+        "assets/Glass08r.jpg",
+        "assets/Glass08s.jpg"
+      ],
+      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
+      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
+      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
+      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
     }
   ]
 }
-
