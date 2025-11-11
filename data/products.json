@@ -3,12 +3,12 @@
     {
       "id": "g001",
       "name": "YH-HY-03 SERIES",
-      "price": 800000,
+      "price": 85000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass01.jpg",
-      "features": ["4K Recording", "AI Assistant", "Long Battery", "Lightweight"],
-      "features_vi": ["Quay 4K", "Trợ lý AI", "Pin lâu", "Nhẹ"],
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
       "featuresGrid": [
         {
           "title": "800W Pixels Camera",
@@ -52,8 +52,8 @@
         "assets/Glass01d.jpg",
         "assets/Glass01e.jpg"
       ],
-      "shortDescription": "AI-powered smart glasses with 4K recording and real-time assistant.",
-      "shortDescription_vi": "Kính thông minh tích hợp AI với khả năng quay 4K và trợ lý thời gian thực.",
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
       "longDescription": "Smart Glass Pro features an integrated camera, AI assistant, long battery life, and lightweight frame. Experience the future of wearable technology with our flagship model.",
       "longDescription_vi": "Smart Glass Pro tích hợp camera, trợ lý AI, pin bền và khung nhẹ. Trải nghiệm tương lai của công nghệ đeo với sản phẩm hàng đầu của chúng tôi."
     },
