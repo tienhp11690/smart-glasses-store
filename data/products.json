@@ -3,42 +3,12 @@
     {
       "id": "g001",
       "name": "YH-HY-03 SERIES",
-      "price": 85000,
+      "price": 850000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass01.jpg",
       "features": ["AI Assistant", "Play music", "Answer Phone Call"],
       "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
-      "featuresGrid": [
-        {
-          "title": "800W Pixels Camera",
-          "title_vi": "Camera 800W Pixels",
-          "description": "HD Photo & Video Recording with 1080P 30fps",
-          "description_vi": "Quay video HD 1080P 30fps",
-          "image": "assets/features/ai-photo-transparent.jpg"
-        },
-        {
-          "title": "AI Photo Recognition",
-          "title_vi": "Nhận Diện AI",
-          "description": "6-in-1 AI Powers All Scenarios",
-          "description_vi": "6 tính năng AI cho mọi tình huống",
-          "image": "assets/features/smart-glasses-hero.jpg"
-        },
-        {
-          "title": "AI Chat & Voice",
-          "title_vi": "Trò Chuyện AI",
-          "description": "Multi-role AI online conversation",
-          "description_vi": "Đối thoại AI đa vai trò trực tuyến",
-          "image": "assets/features/ai-chat.jpg"
-        },
-        {
-          "title": "Smart Features",
-          "title_vi": "Tính Năng Thông Minh",
-          "description": "AI Role-play, Scene Record, Translation",
-          "description_vi": "Nhập vai AI, Ghi cảnh, Dịch thuật",
-          "image": "assets/features/ai-features.jpg"
-        }
-      ],
       "models": [
         { "name": "YH-HY-0311", "imageIndex": 0 },
         { "name": "YH-HY-0322", "imageIndex": 1 },
@@ -54,48 +24,18 @@
       ],
       "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
       "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
-      "longDescription": "Smart Glass Pro features an integrated camera, AI assistant, long battery life, and lightweight frame. Experience the future of wearable technology with our flagship model.",
-      "longDescription_vi": "Smart Glass Pro tích hợp camera, trợ lý AI, pin bền và khung nhẹ. Trải nghiệm tương lai của công nghệ đeo với sản phẩm hàng đầu của chúng tôi."
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
     },
     {
       "id": "g002",
       "name": "YH-HY-01 SERIES",
-      "price": 1500000,
+      "price": 850000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass02.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
-      "featuresGrid": [
-        {
-          "title": "Multiple Lens Options",
-          "title_vi": "Đa Dạng Tùy Chọn Tròng",
-          "description": "Sunglasses, blue-blocking, photochromic lenses",
-          "description_vi": "Tròng râm, chống ánh sáng xanh, đổi màu",
-          "image": "assets/features/lens-options.jpg"
-        },
-        {
-          "title": "Music Control",
-          "title_vi": "Điều Khiển Nhạc",
-          "description": "Delicate sound quality, immersive experience",
-          "description_vi": "Chất lượng âm thanh tinh tế, trải nghiệm sống động",
-          "image": "assets/features/music-control.jpg"
-        },
-        {
-          "title": "Long Battery Life",
-          "title_vi": "Pin Bền Lâu",
-          "description": "260mAh large-capacity battery",
-          "description_vi": "Pin dung lượng lớn 260mAh",
-          "image": "assets/features/battery-life.jpg"
-        },
-        {
-          "title": "IP66 Waterproof",
-          "title_vi": "Chống Nước IP66",
-          "description": "Dust, water & sweat resistant",
-          "description_vi": "Chống bụi, nước và mồ hôi",
-          "image": "assets/features/waterproof.jpg"
-        }
-      ],
       "models": [
         { "name": "YH-HY-0111", "imageIndex": 0 },
         { "name": "YH-HY-0122", "imageIndex": 1 },
@@ -109,64 +49,20 @@
         "assets/Glass02d.jpg",
         "assets/Glass02e.jpg"
       ],
-      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
-      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
-      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
-      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
     },
     {
       "id": "g003",
       "name": "YH-HY-02 SERIES",
-      "price": 0,
+      "price": 850000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass03.jpg",
       "features": ["AR Overlay", "Advanced AI", "Premium Materials", "Extended Battery"],
       "features_vi": ["Lớp phủ AR", "AI tiên tiến", "Chất liệu cao cấp", "Pin mở rộng"],
-      "featuresGrid": [
-        {
-          "title": "Health Monitoring",
-          "title_vi": "Theo Dõi Sức Khỏe",
-          "description": "HR & SpO₂ tracking, real-time health tabs",
-          "description_vi": "Theo dõi nhịp tim & SpO₂ thời gian thực",
-          "image": "assets/features/health-monitoring.jpg"
-        },
-        {
-          "title": "Temperature Measurement",
-          "title_vi": "Đo Nhiệt Độ",
-          "description": "Monitor body temperature at home or outdoors",
-          "description_vi": "Theo dõi nhiệt độ cơ thể ở nhà hoặc ngoài trời",
-          "image": "assets/features/temperature.jpg"
-        },
-        {
-          "title": "UV Detection",
-          "title_vi": "Phát Hiện UV",
-          "description": "Real-time UV intensity monitoring",
-          "description_vi": "Theo dõi cường độ UV thời gian thực",
-          "image": "assets/features/uv-detection.jpg"
-        },
-        {
-          "title": "AI Translation",
-          "title_vi": "Dịch Thuật AI",
-          "description": "Custom translation for 100+ languages",
-          "description_vi": "Dịch tùy chỉnh cho hơn 100 ngôn ngữ",
-          "image": "assets/features/ai-translation.jpg"
-        },
-        {
-          "title": "AI Conversation",
-          "title_vi": "Đối Thoại AI",
-          "description": "Vast knowledge treasury to answer questions",
-          "description_vi": "Kho tri thức rộng lớn để trả lời câu hỏi",
-          "image": "assets/features/ai-conversation.jpg"
-        },
-        {
-          "title": "Health Management",
-          "title_vi": "Quản Lý Sức Khỏe",
-          "description": "UV + HR & SpO₂ Health Management AI Smart Glasses",
-          "description_vi": "Kính thông minh AI quản lý UV + Nhịp tim & SpO₂",
-          "image": "assets/features/health-management.jpg"
-        }
-      ],
       "models": [
         { "name": "YH-HY-0211", "imageIndex": 0 },
         { "name": "YH-HY-0233", "imageIndex": 1 }
@@ -178,50 +74,20 @@
         "assets/Glass03c.jpg",
         "assets/Glass03d.jpg"
       ],
-      "shortDescription": "Premium smart glasses with advanced AI and AR capabilities.",
-      "shortDescription_vi": "Kính thông minh cao cấp với AI tiên tiến và khả năng AR.",
-      "longDescription": "Elite Vision X is our top-of-the-line model featuring advanced AI processing, augmented reality overlay, premium materials, and extended battery life. Perfect for professionals and tech enthusiasts.",
-      "longDescription_vi": "Elite Vision X là mẫu cao cấp nhất của chúng tôi với xử lý AI tiên tiến, lớp phủ thực tế tăng cường, chất liệu cao cấp và pin bền. Hoàn hảo cho các chuyên gia và người đam mê công nghệ."
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
     },
     {
       "id": "g004",
       "name": "YH-HY-05 SERIES",
-      "price": 1500000,
+      "price": 850000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass04.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
-      "featuresGrid": [
-        {
-          "title": "W630 AI Recognition",
-          "title_vi": "Nhận Diện AI W630",
-          "description": "8MP high-definition with EIS and OIS",
-          "description_vi": "8MP độ phân giải cao với EIS và OIS",
-          "image": "assets/features/w630-specs.jpg"
-        },
-        {
-          "title": "Multiple Lens Options",
-          "title_vi": "Đa Dạng Tùy Chọn Tròng",
-          "description": "Sunglasses, Anti-blue Light, Photochromic",
-          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
-          "image": "assets/features/lens-options.jpg"
-        },
-        {
-          "title": "Smart Translation",
-          "title_vi": "Dịch Thông Minh",
-          "description": "Removes language barriers for seamless communication",
-          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
-          "image": "assets/features/ai-translation.jpg"
-        },
-        {
-          "title": "All Features",
-          "title_vi": "Tất Cả Tính Năng",
-          "description": "Seven reasons to choose our smart glasses",
-          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
-          "image": "assets/features/seven-reasons.jpg"
-        }
-      ],
       "models": [
         { "name": "YH-HY-0511", "imageIndex": 0 },
         { "name": "YH-HY-0522", "imageIndex": 1 },
@@ -238,50 +104,20 @@
         "assets/Glass04e.jpg",
         "assets/Glass04f.jpg"
       ],
-      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
-      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
-      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
-      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
     },
     {
       "id": "g005",
       "name": "YH-HY-06 SERIES",
-      "price": 1500000,
+      "price": 850000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass05.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
-      "featuresGrid": [
-        {
-          "title": "W630 AI Recognition",
-          "title_vi": "Nhận Diện AI W630",
-          "description": "8MP high-definition with EIS and OIS",
-          "description_vi": "8MP độ phân giải cao với EIS và OIS",
-          "image": "assets/features/w630-specs.jpg"
-        },
-        {
-          "title": "Multiple Lens Options",
-          "title_vi": "Đa Dạng Tùy Chọn Tròng",
-          "description": "Sunglasses, Anti-blue Light, Photochromic",
-          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
-          "image": "assets/features/lens-options.jpg"
-        },
-        {
-          "title": "Smart Translation",
-          "title_vi": "Dịch Thông Minh",
-          "description": "Removes language barriers for seamless communication",
-          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
-          "image": "assets/features/ai-translation.jpg"
-        },
-        {
-          "title": "All Features",
-          "title_vi": "Tất Cả Tính Năng",
-          "description": "Seven reasons to choose our smart glasses",
-          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
-          "image": "assets/features/seven-reasons.jpg"
-        }
-      ],
       "models": [
         { "name": "YH-HY-0614", "imageIndex": 0 },
         { "name": "YH-HY-0634", "imageIndex": 1 },
@@ -301,50 +137,20 @@
         "assets/Glass05g.jpg",
         "assets/Glass05h.jpg"
       ],
-      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
-      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
-      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
-      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
     },
     {
       "id": "g006",
       "name": "YH-HY-60 SERIES",
-      "price": 1500000,
+      "price": 850000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass06.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
-      "featuresGrid": [
-        {
-          "title": "W630 AI Recognition",
-          "title_vi": "Nhận Diện AI W630",
-          "description": "8MP high-definition with EIS and OIS",
-          "description_vi": "8MP độ phân giải cao với EIS và OIS",
-          "image": "assets/features/w630-specs.jpg"
-        },
-        {
-          "title": "Multiple Lens Options",
-          "title_vi": "Đa Dạng Tùy Chọn Tròng",
-          "description": "Sunglasses, Anti-blue Light, Photochromic",
-          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
-          "image": "assets/features/lens-options.jpg"
-        },
-        {
-          "title": "Smart Translation",
-          "title_vi": "Dịch Thông Minh",
-          "description": "Removes language barriers for seamless communication",
-          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
-          "image": "assets/features/ai-translation.jpg"
-        },
-        {
-          "title": "All Features",
-          "title_vi": "Tất Cả Tính Năng",
-          "description": "Seven reasons to choose our smart glasses",
-          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
-          "image": "assets/features/seven-reasons.jpg"
-        }
-      ],
       "models": [
         { "name": "YH-HY-6064", "imageIndex": 0 },
         { "name": "YH-HY-6026", "imageIndex": 1 },
@@ -373,50 +179,20 @@
         "assets/Glass06k.jpg",
         "assets/Glass06l.jpg"
       ],
-      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
-      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
-      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
-      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
     },
     {
       "id": "g007",
       "name": "YH-HY-08 SERIES",
-      "price": 1500000,
+      "price": 850000,
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass07.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
-      "featuresGrid": [
-        {
-          "title": "W630 AI Recognition",
-          "title_vi": "Nhận Diện AI W630",
-          "description": "8MP high-definition with EIS and OIS",
-          "description_vi": "8MP độ phân giải cao với EIS và OIS",
-          "image": "assets/features/w630-specs.jpg"
-        },
-        {
-          "title": "Multiple Lens Options",
-          "title_vi": "Đa Dạng Tùy Chọn Tròng",
-          "description": "Sunglasses, Anti-blue Light, Photochromic",
-          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
-          "image": "assets/features/lens-options.jpg"
-        },
-        {
-          "title": "Smart Translation",
-          "title_vi": "Dịch Thông Minh",
-          "description": "Removes language barriers for seamless communication",
-          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
-          "image": "assets/features/ai-translation.jpg"
-        },
-        {
-          "title": "All Features",
-          "title_vi": "Tất Cả Tính Năng",
-          "description": "Seven reasons to choose our smart glasses",
-          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
-          "image": "assets/features/seven-reasons.jpg"
-        }
-      ],
       "models": [
         { "name": "YH-HY-0855", "imageIndex": 0 }
       ],
@@ -425,50 +201,20 @@
         "assets/Glass07a.jpg",
         "assets/Glass07b.jpg"
       ],
-      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
-      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
-      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
-      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
     },
     {
       "id": "g008",
       "name": "AIMB-G2 SERIES",
-      "price": 1500000,
+      "price": 1800000,
       "currency": "VND",
       "category": "camera",
       "thumbnail": "assets/thumbnails/Glass08.jpg",
       "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
       "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
-      "featuresGrid": [
-        {
-          "title": "W630 AI Recognition",
-          "title_vi": "Nhận Diện AI W630",
-          "description": "8MP high-definition with EIS and OIS",
-          "description_vi": "8MP độ phân giải cao với EIS và OIS",
-          "image": "assets/features/w630-specs.jpg"
-        },
-        {
-          "title": "Multiple Lens Options",
-          "title_vi": "Đa Dạng Tùy Chọn Tròng",
-          "description": "Sunglasses, Anti-blue Light, Photochromic",
-          "description_vi": "Tròng râm, Chống ánh sáng xanh, Đổi màu",
-          "image": "assets/features/lens-options.jpg"
-        },
-        {
-          "title": "Smart Translation",
-          "title_vi": "Dịch Thông Minh",
-          "description": "Removes language barriers for seamless communication",
-          "description_vi": "Xóa rào cản ngôn ngữ cho giao tiếp liền mạch",
-          "image": "assets/features/ai-translation.jpg"
-        },
-        {
-          "title": "All Features",
-          "title_vi": "Tất Cả Tính Năng",
-          "description": "Seven reasons to choose our smart glasses",
-          "description_vi": "Bảy lý do để chọn kính thông minh của chúng tôi",
-          "image": "assets/features/seven-reasons.jpg"
-        }
-      ],
       "models": [
         { "name": "Black Frame", "imageIndex": 0 },
         { "name": "White Frame", "imageIndex": 0 }
@@ -495,10 +241,10 @@
         "assets/Glass08r.jpg",
         "assets/Glass08s.jpg"
       ],
-      "shortDescription": "Affordable smart glasses with voice commands and HD capture.",
-      "shortDescription_vi": "Kính thông minh giá phải chăng với điều khiển giọng nói và quay HD.",
-      "longDescription": "Vision Lite is perfect for daily use with compact battery and easy controls. Get premium features at an accessible price point.",
-      "longDescription_vi": "Vision Lite hoàn hảo cho sử dụng hàng ngày với pin nhỏ gọn và điều khiển dễ dàng. Có được tính năng cao cấp với mức giá phải chăng."
+      "shortDescription": "Smart fashion glasses with AI assistant, Full HD video recording, music, and call features.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, quay video Full HD, nghe nhạc và nhận cuộc gọi.",
+      "longDescription": "Fashionable smart glasses with built-in AI assistant and Full HD camera — listen to music, answer calls, and capture every moment.",
+      "longDescription_vi": "Kính mắt thời trang tích hợp trợ lý ảo AI và camera Full HD — nghe nhạc, nhận cuộc gọi và ghi lại mọi khoảnh khắc."
     }
   ]
 }
