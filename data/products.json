@@ -61,8 +61,8 @@
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass03.jpg",
-      "features": ["AR Overlay", "Advanced AI", "Premium Materials", "Extended Battery"],
-      "features_vi": ["Lớp phủ AR", "AI tiên tiến", "Chất liệu cao cấp", "Pin mở rộng"],
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
       "models": [
         { "name": "YH-HY-0211", "imageIndex": 0 },
         { "name": "YH-HY-0233", "imageIndex": 1 }
@@ -86,8 +86,8 @@
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass04.jpg",
-      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
-      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
       "models": [
         { "name": "YH-HY-0511", "imageIndex": 0 },
         { "name": "YH-HY-0522", "imageIndex": 1 },
@@ -116,8 +116,8 @@
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass05.jpg",
-      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
-      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
       "models": [
         { "name": "YH-HY-0614", "imageIndex": 0 },
         { "name": "YH-HY-0634", "imageIndex": 1 },
@@ -149,8 +149,8 @@
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass06.jpg",
-      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
-      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+   "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
       "models": [
         { "name": "YH-HY-6064", "imageIndex": 0 },
         { "name": "YH-HY-6026", "imageIndex": 1 },
@@ -191,8 +191,8 @@
       "currency": "VND",
       "category": "fashion",
       "thumbnail": "assets/thumbnails/Glass07.jpg",
-      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
-      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
       "models": [
         { "name": "YH-HY-0855", "imageIndex": 0 }
       ],
@@ -213,8 +213,8 @@
       "currency": "VND",
       "category": "camera",
       "thumbnail": "assets/thumbnails/Glass08.jpg",
-      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
-      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+    "features": ["Camera Full HD", "AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Camera Full HD", "Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
       "models": [
         { "name": "Black Frame", "imageIndex": 0 },
         { "name": "White Frame", "imageIndex": 0 }
