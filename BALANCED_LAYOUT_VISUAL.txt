@@ -1,0 +1,197 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  BALANCED FEATURE GRID LAYOUT                                ║
+║              4 Right Cards = 1 Left Card Height                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  DESKTOP LAYOUT (4-Column Grid)                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+      ┌────────────┬─────────────────────┬───────────────┐
+      │            │                     │               │
+      │  CARD 1    │      CARD 2         │    CARD 3     │
+      │            │                     │               │
+      │   900×     │     1200×500        │    600×500    │
+      │   1200     │     (Wide)          │   (Square)    │
+      │            │                     │               │
+      │ (Portrait) ├─────────────────────┼───────────────┤
+      │   Tall     │                     │               │
+      │            │      CARD 4         │    CARD 5     │
+      │  Spans 2   │                     │               │
+      │   Rows     │     1200×500        │    600×500    │
+      │            │     (Wide)          │   (Square)    │
+      │            │                     │               │
+      ├────────────┴─────────────────────┴───────────────┤
+      │                                                   │
+      │                    CARD 6                         │
+      │                 2000×500 (Ultra-wide)             │
+      │                                                   │
+      └───────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  HEIGHT BALANCE                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+   Left Side                Right Side
+   
+   ┌─────────┐              ┌─────────┬─────┐
+   │         │              │ Card 2  │ C3  │  ← 245px
+   │         │              │ 1200×500│ 600 │
+   │ Card 1  │              │         │×500 │
+   │         │              ├─────────┼─────┤
+   │  900×   │      =       │ Card 4  │ C5  │  ← 245px
+   │  1200   │              │ 1200×500│ 600 │
+   │         │              │         │×500 │
+   │         │              └─────────┴─────┘
+   └─────────┘              
+   
+   500px Total   =   500px Total (245+245 = 490px + spacing)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  IMAGE SPECIFICATIONS BY POSITION                                            │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+1️⃣  CARD 1: ai-photo-transparent.jpg
+    ┌─────┐
+    │  3  │    Dimensions: 900 × 1200 pixels
+    │  :  │    Aspect Ratio: 3:4 (Portrait)
+    │  4  │    Position: Large left (tall)
+    │     │    File Size: < 400KB
+    │ Big │    Content: Hero product shot
+    │Vert │    Min Height: 500px (spans 2 rows)
+    └─────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2️⃣  CARD 2: lens-options.jpg
+    ┌────────────────┐
+    │  2.4:1 RATIO   │    Dimensions: 1200 × 500 pixels
+    │     (Wide)     │    Aspect Ratio: 2.4:1
+    └────────────────┘    Position: Top center-right (wide)
+                          File Size: < 350KB
+                          Content: Multiple lens options
+                          Min Height: 245px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3️⃣  CARD 3: temperature.jpg
+    ┌──────┐
+    │ 1.2:1│    Dimensions: 600 × 500 pixels
+    │Square│    Aspect Ratio: 1.2:1 (Nearly square)
+    └──────┘    Position: Top right (small)
+                File Size: < 250KB
+                Content: Health monitoring, portrait
+                Min Height: 245px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4️⃣  CARD 4: ai-chat.jpg
+    ┌────────────────┐
+    │  2.4:1 RATIO   │    Dimensions: 1200 × 500 pixels
+    │     (Wide)     │    Aspect Ratio: 2.4:1
+    └────────────────┘    Position: Middle center-right (wide)
+                          File Size: < 350KB
+                          Content: AI chat interface
+                          Min Height: 245px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5️⃣  CARD 5: ai-features.jpg
+    ┌──────┐
+    │ 1.2:1│    Dimensions: 600 × 500 pixels
+    │Square│    Aspect Ratio: 1.2:1 (Nearly square)
+    └──────┘    Position: Middle right (small)
+                File Size: < 250KB
+                Content: App features interface
+                Min Height: 245px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6️⃣  CARD 6: health-management.jpg
+    ┌────────────────────────────────────┐
+    │         4:1 RATIO (Ultra-wide)     │    Dimensions: 2000 × 500 pixels
+    └────────────────────────────────────┘    Aspect Ratio: 4:1
+                                               Position: Bottom full width
+                                               File Size: < 500KB
+                                               Content: Ecosystem overview
+                                               Min Height: 280px
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  QUICK DIMENSION REFERENCE                                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+Card 1 (Left Tall):         900 × 1200 px   (3:4 portrait)
+Card 2 (Top Wide):         1200 × 500 px    (2.4:1 wide)
+Card 3 (Top Square):        600 × 500 px    (1.2:1 square-ish)
+Card 4 (Middle Wide):      1200 × 500 px    (2.4:1 wide)
+Card 5 (Middle Square):     600 × 500 px    (1.2:1 square-ish)
+Card 6 (Bottom Ultra):     2000 × 500 px    (4:1 ultra-wide)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  TEXT OVERLAY ZONES (All Cards)                                             │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+Cards 1-5 (Standard):           Card 6 (Wide):
+┌─────────────┐                 ┌──────────────────────────┐
+│  Image      │  70%             │      Image Content       │  70%
+│  Content    │                  │      (Panoramic)         │
+├─────────────┤                  ├──────────────────────────┤
+│[Dark Area]  │  30%             │   [Dark/Clear Area]      │  30%
+│  Title      │                  │      Title Text          │
+│Description  │                  │   Description Text       │
+└─────────────┘                  └──────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  PHOTOSHOP/FIGMA SETUP                                                       │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+Create 6 new artboards/canvases:
+
+1. ai-photo-transparent.jpg    →   900 × 1200 px  (Portrait)
+2. lens-options.jpg            →  1200 × 500 px   (Wide)
+3. temperature.jpg             →   600 × 500 px   (Square-ish)
+4. ai-chat.jpg                 →  1200 × 500 px   (Wide)
+5. ai-features.jpg             →   600 × 500 px   (Square-ish)
+6. health-management.jpg       →  2000 × 500 px   (Ultra-wide)
+
+Export Settings:
+✓ Format: JPG
+✓ Quality: 80%
+✓ Color Space: sRGB
+✓ Optimize for web
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  DESIGN TIPS BY SIZE                                                         │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+PORTRAIT (Card 1):
+  ✓ Use for your best vertical product shot
+  ✓ Person using product works well
+  ✓ Full-body or 3/4 shot of glasses
+  ✗ Don't use wide horizontal images
+
+WIDE (Cards 2, 4):
+  ✓ Multiple items side-by-side
+  ✓ Comparison or options theme
+  ✓ Horizontal action shots
+  ✗ Don't put single centered item
+
+SQUARE (Cards 3, 5):
+  ✓ Single product close-up
+  ✓ Portrait of person with product
+  ✓ App interface screenshots
+  ✗ Don't use very wide compositions
+
+ULTRA-WIDE (Card 6):
+  ✓ Panoramic product lineup
+  ✓ Environment/lifestyle shot
+  ✓ Full ecosystem showcase
+  ✗ Don't use vertical compositions
+
+═══════════════════════════════════════════════════════════════════════════════
+
+              🎨 BALANCED LAYOUT - READY TO CREATE IMAGES! 🎨
+
+═══════════════════════════════════════════════════════════════════════════════
+
+

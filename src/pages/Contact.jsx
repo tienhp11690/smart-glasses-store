@@ -1,7 +1,11 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
+import { useLanguage } from '../contexts/LanguageContext'
+import { translations } from '../locales/translations'
 
 const Contact = () => {
+  const { language } = useLanguage()
+  const t = translations[language]
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,7 +26,9 @@ const Contact = () => {
     // For GitHub Pages, you could integrate with a form service or show instructions
     setSubmitStatus({
       type: 'success',
-      message: 'Thank you for your message! We\'ll get back to you soon.',
+      message: language === 'vi' 
+        ? 'Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất.'
+        : 'Thank you for your message! We\'ll get back to you soon.',
     })
     setFormData({ name: '', email: '', message: '' })
   }
@@ -36,10 +42,10 @@ const Contact = () => {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gradient">
-          Get in Touch
+          {t.getInTouch}
         </h1>
         <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-          Have questions? We'd love to hear from you.
+          {t.contactDescription}
         </p>
       </motion.div>
 
@@ -52,21 +58,39 @@ const Contact = () => {
           className="space-y-6"
         >
           <div className="glass-strong rounded-2xl p-8">
-            <h2 className="text-2xl font-bold mb-6">Store Information</h2>
+            <h2 className="text-2xl font-bold mb-6">
+              {language === 'vi' ? 'Thông Tin Cửa Hàng' : 'Store Information'}
+            </h2>
             
             <div className="space-y-4">
               <div>
-                <h3 className="text-sm font-semibold text-cyan-400 mb-2">Address</h3>
+                <h3 className="text-sm font-semibold text-cyan-400 mb-2">
+                  {language === 'vi' ? 'Địa chỉ' : 'Address'}
+                </h3>
                 <p className="text-gray-300">
-                  123 Tech Street<br />
-                  San Francisco, CA 94105<br />
-                  United States
+                  {language === 'vi' ? (
+                    <>
+                      123 Đường Công Nghệ<br />
+                      Quận 1, Hồ Chí Minh<br />
+                      Việt Nam
+                    </>
+                  ) : (
+                    <>
+                      123 Tech Street<br />
+                      San Francisco, CA 94105<br />
+                      United States
+                    </>
+                  )}
                 </p>
               </div>
               
               <div>
-                <h3 className="text-sm font-semibold text-cyan-400 mb-2">Phone</h3>
-                <p className="text-gray-300">+1 (555) 123-4567</p>
+                <h3 className="text-sm font-semibold text-cyan-400 mb-2">
+                  {language === 'vi' ? 'Điện thoại' : 'Phone'}
+                </h3>
+                <p className="text-gray-300">
+                  {language === 'vi' ? '+84 912 345 678' : '+1 (555) 123-4567'}
+                </p>
               </div>
               
               <div>
@@ -75,11 +99,23 @@ const Contact = () => {
               </div>
               
               <div>
-                <h3 className="text-sm font-semibold text-cyan-400 mb-2">Business Hours</h3>
+                <h3 className="text-sm font-semibold text-cyan-400 mb-2">
+                  {language === 'vi' ? 'Giờ làm việc' : 'Business Hours'}
+                </h3>
                 <p className="text-gray-300">
-                  Monday - Friday: 9:00 AM - 6:00 PM<br />
-                  Saturday: 10:00 AM - 4:00 PM<br />
-                  Sunday: Closed
+                  {language === 'vi' ? (
+                    <>
+                      Thứ 2 - Thứ 6: 9:00 - 18:00<br />
+                      Thứ 7: 10:00 - 16:00<br />
+                      Chủ nhật: Nghỉ
+                    </>
+                  ) : (
+                    <>
+                      Monday - Friday: 9:00 AM - 6:00 PM<br />
+                      Saturday: 10:00 AM - 4:00 PM<br />
+                      Sunday: Closed
+                    </>
+                  )}
                 </p>
               </div>
             </div>
@@ -88,8 +124,17 @@ const Contact = () => {
           {/* Map Placeholder */}
           <div className="glass rounded-2xl p-8 aspect-video flex items-center justify-center">
             <p className="text-gray-400 text-sm text-center">
-              Map integration placeholder<br />
-              (Add Google Maps embed or similar service)
+              {language === 'vi' ? (
+                <>
+                  Vị trí bản đồ<br />
+                  (Tích hợp Google Maps)
+                </>
+              ) : (
+                <>
+                  Map integration placeholder<br />
+                  (Add Google Maps embed or similar service)
+                </>
+              )}
             </p>
           </div>
         </motion.div>
@@ -101,12 +146,14 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="glass-strong rounded-2xl p-8">
-            <h2 className="text-2xl font-bold mb-6">Send us a Message</h2>
+            <h2 className="text-2xl font-bold mb-6">
+              {language === 'vi' ? 'Gửi Tin Nhắn' : 'Send us a Message'}
+            </h2>
             
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label htmlFor="contact-name" className="block text-sm font-semibold mb-2">
-                  Name
+                  {language === 'vi' ? 'Tên' : 'Name'}
                 </label>
                 <input
                   type="text"
@@ -115,7 +162,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 text-white placeholder-gray-400"
-                  placeholder="Your name"
+                  placeholder={language === 'vi' ? 'Tên của bạn' : 'Your name'}
                 />
               </div>
 
@@ -137,7 +184,7 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="contact-message" className="block text-sm font-semibold mb-2">
-                  Message
+                  {language === 'vi' ? 'Tin nhắn' : 'Message'}
                 </label>
                 <textarea
                   id="contact-message"
@@ -147,7 +194,7 @@ const Contact = () => {
                   required
                   rows="6"
                   className="w-full px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 text-white placeholder-gray-400 resize-none"
-                  placeholder="Your message..."
+                  placeholder={language === 'vi' ? 'Nội dung tin nhắn...' : 'Your message...'}
                 />
               </div>
 
@@ -169,12 +216,15 @@ const Contact = () => {
                 type="submit"
                 className="w-full px-6 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold text-white hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
               >
-                Send Message
+                {language === 'vi' ? 'Gửi tin nhắn' : 'Send Message'}
               </button>
             </form>
 
             <p className="mt-4 text-xs text-gray-400 text-center">
-              * For production, integrate with a form service (e.g., Formspree, Netlify Forms) or backend API.
+              {language === 'vi' 
+                ? '* Để triển khai thực tế, tích hợp với dịch vụ form hoặc backend API.'
+                : '* For production, integrate with a form service (e.g., Formspree, Netlify Forms) or backend API.'
+              }
             </p>
           </div>
         </motion.div>

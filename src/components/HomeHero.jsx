@@ -1,7 +1,34 @@
+import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { useLanguage } from '../contexts/LanguageContext'
+import { translations } from '../locales/translations'
 
 const HomeHero = () => {
+  const { language } = useLanguage()
+  const t = translations[language]
+  const videoRef = useRef(null)
+  const [isFullscreen, setIsFullscreen] = useState(false)
+
+  const handleFullscreen = () => {
+    if (!videoRef.current) return
+
+    if (!document.fullscreenElement) {
+      videoRef.current.requestFullscreen?.() ||
+      videoRef.current.webkitRequestFullscreen?.() ||
+      videoRef.current.msRequestFullscreen?.()
+    } else {
+      document.exitFullscreen?.() ||
+      document.webkitExitFullscreen?.() ||
+      document.msExitFullscreen?.()
+    }
+  }
+
+  // Listen for fullscreen changes
+  const handleFullscreenChange = () => {
+    setIsFullscreen(!!document.fullscreenElement)
+  }
+
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background gradient overlay */}
@@ -27,9 +54,9 @@ const HomeHero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <span className="text-gradient">See the Future</span>
+              <span className="text-gradient">{t.heroTitle1}</span>
               <br />
-              <span className="text-white">Through Smart Glasses</span>
+              <span className="text-white">{t.heroTitle2}</span>
             </motion.h1>
             
             <motion.p 
@@ -38,7 +65,7 @@ const HomeHero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              AI-powered smart glasses with 4K recording, real-time assistant, and seamless integration into your daily life.
+              {t.heroDescription}
             </motion.p>
             
             <motion.div 
@@ -51,13 +78,13 @@ const HomeHero = () => {
                 to="/catalogue"
                 className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold text-white text-center hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
               >
-                Explore Products
+                {t.exploreProducts}
               </Link>
               <Link
                 to="/contact"
                 className="px-8 py-4 glass rounded-full font-semibold text-white text-center hover:bg-white/20 transition-all duration-300"
               >
-                Learn More
+                {t.learnMore}
               </Link>
             </motion.div>
           </motion.div>
@@ -70,19 +97,43 @@ const HomeHero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <div className="glass-strong rounded-3xl p-8 glow">
-              {/* Placeholder for hero image/video - replace with actual media */}
-              <div className="aspect-video bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-2xl flex items-center justify-center">
-                <p className="text-gray-400 text-sm">
-                  Add hero image/video/gif to: /public/assets/hero-media.jpg (or .mp4/.gif)
-                </p>
+              <div className="aspect-video bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-2xl overflow-hidden relative group">
+                <video 
+                  ref={videoRef}
+                  src={`${import.meta.env.BASE_URL}assets/hero-media.mp4`}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover rounded-2xl"
+                  onError={(e) => {
+                    console.error('Error loading hero video')
+                    e.target.style.display = 'none'
+                  }}
+                  onFullscreenChange={handleFullscreenChange}
+                  onWebkitFullscreenChange={handleFullscreenChange}
+                >
+                  Your browser does not support the video tag.
+                </video>
+                
+                {/* Fullscreen button */}
+                <button
+                  onClick={handleFullscreen}
+                  className="absolute bottom-4 right-4 p-3 glass-strong rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-white/20"
+                  aria-label="Toggle fullscreen"
+                  title="View fullscreen"
+                >
+                  {!isFullscreen ? (
+                    <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                    </svg>
+                  ) : (
+                    <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  )}
+                </button>
               </div>
-              {/* Uncomment when you add actual media:
-              <img 
-                src="/assets/hero-media.jpg" 
-                alt="Smart Glasses Hero" 
-                className="rounded-2xl w-full"
-              />
-              */}
             </div>
           </motion.div>
         </div>

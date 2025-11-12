@@ -2,21 +2,25 @@
  * Load products data from /data/products.json
  * In production, this could be replaced with an API call
  */
-export const loadProducts = async () => {
+export async function loadProducts() {
   try {
-    const response = await fetch('/data/products.json')
+    const base = import.meta.env.BASE_URL || '/';
+    console.log("👉 Base URL:", base);
+
+    const response = await fetch(`${base}data/products.json`);
+
     if (!response.ok) {
-      throw new Error(`Failed to load products: ${response.statusText}`)
+      throw new Error(`Failed to load products: ${response.status} ${response.statusText}`);
     }
-    const data = await response.json()
-    return data
+
+    const data = await response.json();
+    console.log("✅ Products loaded:", data);
+    return data.products || [];
   } catch (error) {
-    console.error('Error loading products:', error)
-    // Return empty data structure on error
-    return { products: [] }
+    console.error('❌ Error loading products:', error);
+    return [];
   }
 }
-
 /**
  * Get a single product by ID
  */

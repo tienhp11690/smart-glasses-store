@@ -1,0 +1,196 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               FEATURE GRID IMAGE DIMENSIONS REFERENCE                        ║
+║                         "Rokid Style" Layout                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  CARD LAYOUT (Desktop View)                                                  │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+      ┌────────────────┬──────────────────────────┬───────────────┐
+      │                │                          │               │
+      │   CARD 1       │        CARD 2            │   CARD 3      │
+      │   1200×800     │        1500×500          │   900×500     │
+      │   (3:2)        │        (3:1 wide)        │   (16:9)      │
+      │                │                          │               │
+      │                ├──────────┬───────────────┼───────────────┤
+      │   Vertical     │  CARD 4  │    CARD 5     │   CARD 6      │
+      │   Portrait     │ 1200×500 │   1200×500    │  1200×500     │
+      │                │ (2.4:1)  │   (2.4:1)     │  (2.4:1)      │
+      └────────────────┴──────────┴───────────────┴───────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  IMAGE SPECIFICATIONS                                                        │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+📸 CARD 1: ai-photo-transparent.jpg
+   ┌─────────┐
+   │         │    Dimensions: 1200 × 800 pixels
+   │  3:2    │    Aspect Ratio: 3:2 (portrait/square-ish)
+   │ RATIO   │    File Size: < 300KB
+   │         │    Position: Large left card (tall)
+   │         │    Content: Hero product shot, vertical composition
+   └─────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 CARD 2: lens-options.jpg
+   ┌────────────────────────────────┐
+   │       3:1 RATIO (WIDE)         │    Dimensions: 1500 × 500 pixels
+   └────────────────────────────────┘    Aspect Ratio: 3:1 (ultra-wide)
+                                          File Size: < 400KB
+                                          Position: Top-center wide card
+                                          Content: Multiple items side-by-side
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 CARD 3: temperature.jpg
+   ┌─────────────────┐
+   │   16:9 RATIO    │    Dimensions: 900 × 500 pixels
+   └─────────────────┘    Aspect Ratio: 16:9 (widescreen)
+                           File Size: < 250KB
+                           Position: Top-right medium card
+                           Content: Person with product
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 CARD 4: ai-chat.jpg
+   ┌─────────────────────┐
+   │   2.4:1 RATIO       │    Dimensions: 1200 × 500 pixels
+   └─────────────────────┘    Aspect Ratio: 2.4:1 (wide)
+                               File Size: < 300KB
+                               Position: Bottom-left
+                               Content: AI interface
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 CARD 5: ai-features.jpg
+   ┌─────────────────────┐
+   │   2.4:1 RATIO       │    Dimensions: 1200 × 500 pixels
+   └─────────────────────┘    Aspect Ratio: 2.4:1 (wide)
+                               File Size: < 300KB
+                               Position: Bottom-center
+                               Content: App features
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 CARD 6: health-management.jpg
+   ┌─────────────────────┐
+   │   2.4:1 RATIO       │    Dimensions: 1200 × 500 pixels
+   └─────────────────────┘    Aspect Ratio: 2.4:1 (wide)
+                               File Size: < 300KB
+                               Position: Bottom-right
+                               Content: Health ecosystem
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  TEXT OVERLAY SAFETY ZONE                                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+ALL images should have this composition:
+
+┌─────────────────────────────────────┐  ▲
+│                                     │  │ 70%
+│   YOUR IMAGE CONTENT AREA           │  │ Main
+│   (Product, person, interface)      │  │ Visual
+│   Keep this area interesting!       │  │ Content
+│                                     │  ▼
+├─────────────────────────────────────┤  ───
+│ [Darker/Clearer Area]               │  ▲
+│ Feature Title Goes Here             │  │ 30%
+│ Feature description goes here       │  │ Text
+└─────────────────────────────────────┘  ▼ Zone
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  QUICK PHOTOSHOP/FIGMA CANVAS SETUP                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+Open your design tool and create 6 new files:
+
+1️⃣  ai-photo-transparent.jpg     →  1200 × 800 px  (Portrait-ish)
+2️⃣  lens-options.jpg             →  1500 × 500 px  (Ultra-wide)
+3️⃣  temperature.jpg              →   900 × 500 px  (16:9)
+4️⃣  ai-chat.jpg                  →  1200 × 500 px  (Wide)
+5️⃣  ai-features.jpg              →  1200 × 500 px  (Wide)
+6️⃣  health-management.jpg        →  1200 × 500 px  (Wide)
+
+Export Settings:
+- Format: JPG
+- Quality: 80%
+- Color Space: sRGB
+- Optimize for web: YES
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  DESIGN TIPS BY CARD                                                         │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+CARD 1 (Tall):
+  ✓ Use for your most impressive product shot
+  ✓ Can show more vertical content
+  ✓ Great for full product view
+  ✗ Don't use horizontal compositions
+
+CARD 2 (Ultra-wide):
+  ✓ Perfect for showing 2-3 items side-by-side
+  ✓ Great for "comparison" or "options" themes
+  ✓ Keep important elements centered
+  ✗ Don't put single item in center (will look small)
+
+CARDS 3-6 (Wide 16:9 / 2.4:1):
+  ✓ Standard landscape format
+  ✓ Single subject or focused scene
+  ✓ Use rule of thirds
+  ✗ Don't put text at bottom (will be covered)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  COLOR & COMPOSITION GUIDELINES                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+✓ Dark/moody backgrounds work best (gradient overlay is added)
+✓ High contrast images are more readable
+✓ Leave breathing room around subjects
+✓ Use consistent color palette across all 6 images
+✓ Match the style of your provided example images
+
+✗ Avoid pure white backgrounds (hard to read text)
+✗ Avoid cluttered compositions
+✗ Avoid text already in image (will conflict with overlay)
+✗ Avoid very light bottom sections (text won't be visible)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  FILE NAMING & LOCATION                                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+Save all 6 images to:
+  📁 D:\Project\smart-glasses-store\public\assets\features\
+
+With EXACT filenames:
+  ✓ ai-photo-transparent.jpg
+  ✓ lens-options.jpg
+  ✓ temperature.jpg
+  ✓ ai-chat.jpg
+  ✓ ai-features.jpg
+  ✓ health-management.jpg
+
+⚠️  Filenames must match EXACTLY (case-sensitive, include dashes)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  COMPRESSION TOOLS                                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+If your images are too large, use:
+
+Online:
+  • TinyPNG.com
+  • Squoosh.app (by Google)
+  • Compressor.io
+
+After saving:
+  npm run compress
+
+═══════════════════════════════════════════════════════════════════════════════
+
+                     🎨 READY TO CREATE YOUR IMAGES! 🎨
+
+═══════════════════════════════════════════════════════════════════════════════
+
+

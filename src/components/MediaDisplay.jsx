@@ -1,4 +1,4 @@
-const MediaDisplay = ({ src, alt, className = '' }) => {
+const MediaDisplay = ({ src, alt, className = '', loading = 'lazy', eager = false, onClick, autoplay = false, ...props }) => {
   if (!src) {
     return (
       <div className={`bg-gradient-to-br from-cyan-500/10 to-purple-500/10 flex items-center justify-center ${className}`}>
@@ -8,6 +8,7 @@ const MediaDisplay = ({ src, alt, className = '' }) => {
   }
 
   const extension = src.split('.').pop()?.toLowerCase()
+  const loadingStrategy = eager ? 'eager' : loading
   
   // Handle video files
   if (extension === 'mp4' || extension === 'webm' || extension === 'mov') {
@@ -16,14 +17,18 @@ const MediaDisplay = ({ src, alt, className = '' }) => {
         src={src}
         alt={alt}
         className={className}
-        autoPlay
-        loop
+        autoPlay={autoplay}
+        loop={autoplay}
         muted
         playsInline
+        preload="metadata"
+        onClick={onClick}
+        controls={!autoplay}
         onError={(e) => {
           console.error('Error loading video:', src)
           e.target.style.display = 'none'
         }}
+        {...props}
       />
     )
   }
@@ -35,11 +40,14 @@ const MediaDisplay = ({ src, alt, className = '' }) => {
         src={src}
         alt={alt}
         className={className}
-        loading="lazy"
+        loading={loadingStrategy}
+        decoding="async"
+        onClick={onClick}
         onError={(e) => {
           console.error('Error loading image:', src)
           e.target.style.display = 'none'
         }}
+        {...props}
       />
     )
   }
@@ -50,11 +58,14 @@ const MediaDisplay = ({ src, alt, className = '' }) => {
       src={src}
       alt={alt}
       className={className}
-      loading="lazy"
+      loading={loadingStrategy}
+      decoding="async"
+      onClick={onClick}
       onError={(e) => {
         console.error('Error loading image:', src)
         e.target.style.display = 'none'
       }}
+      {...props}
     />
   )
 }
