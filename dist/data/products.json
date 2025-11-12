@@ -1,0 +1,250 @@
+{
+  "products": [
+    {
+      "id": "g001",
+      "name": "YH-HY-03 SERIES",
+      "price": 850000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass01.jpg",
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
+      "models": [
+        { "name": "YH-HY-0311", "imageIndex": 0 },
+        { "name": "YH-HY-0322", "imageIndex": 1 },
+        { "name": "YH-HY-0332", "imageIndex": 2 }
+      ],
+      "sizes": ["S", "M", "L"],
+      "images": [
+        "assets/Glass01a.jpg",
+        "assets/Glass01b.jpg",
+        "assets/Glass01c.jpg",
+        "assets/Glass01d.jpg",
+        "assets/Glass01e.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
+    },
+    {
+      "id": "g002",
+      "name": "YH-HY-01 SERIES",
+      "price": 850000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass02.jpg",
+      "features": ["Bluetooth 5.4", "90mAh*2 Battery", "6-8h Talk Time", "Touch Control"],
+      "features_vi": ["Bluetooth 5.4", "Pin 90mAh*2", "Đàm thoại 6-8h", "Điều khiển cảm ứng"],
+      "models": [
+        { "name": "YH-HY-0111", "imageIndex": 0 },
+        { "name": "YH-HY-0122", "imageIndex": 1 },
+        { "name": "YH-HY-0132", "imageIndex": 2 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass02a.jpg",
+        "assets/Glass02b.jpg",
+        "assets/Glass02c.jpg",
+        "assets/Glass02d.jpg",
+        "assets/Glass02e.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
+    },
+    {
+      "id": "g003",
+      "name": "YH-HY-02 SERIES",
+      "price": 850000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass03.jpg",
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
+      "models": [
+        { "name": "YH-HY-0211", "imageIndex": 0 },
+        { "name": "YH-HY-0233", "imageIndex": 1 }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "images": [
+        "assets/Glass03a.jpg",
+        "assets/Glass03b.jpg",
+        "assets/Glass03c.jpg",
+        "assets/Glass03d.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
+    },
+    {
+      "id": "g004",
+      "name": "YH-HY-05 SERIES",
+      "price": 850000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass04.jpg",
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
+      "models": [
+        { "name": "YH-HY-0511", "imageIndex": 0 },
+        { "name": "YH-HY-0522", "imageIndex": 1 },
+        { "name": "YH-HY-0514", "imageIndex": 2 },
+        { "name": "YH-HY-0524", "imageIndex": 3 },
+        { "name": "YH-HY-0534", "imageIndex": 4 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass04a.jpg",
+        "assets/Glass04b.jpg",
+        "assets/Glass04c.jpg",
+        "assets/Glass04d.jpg",
+        "assets/Glass04e.jpg",
+        "assets/Glass04f.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
+    },
+    {
+      "id": "g005",
+      "name": "YH-HY-06 SERIES",
+      "price": 850000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass05.jpg",
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
+      "models": [
+        { "name": "YH-HY-0614", "imageIndex": 0 },
+        { "name": "YH-HY-0634", "imageIndex": 1 },
+        { "name": "YH-HY-0622", "imageIndex": 2 },
+        { "name": "YH-HY-0632", "imageIndex": 3 },
+        { "name": "YH-HY-0633", "imageIndex": 4 },
+        { "name": "YH-HY-0634", "imageIndex": 5 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass05a.jpg",
+        "assets/Glass05b.jpg",
+        "assets/Glass05c.jpg",
+        "assets/Glass05d.jpg",
+        "assets/Glass05e.jpg",
+        "assets/Glass05f.jpg",
+        "assets/Glass05g.jpg",
+        "assets/Glass05h.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
+    },
+    {
+      "id": "g006",
+      "name": "YH-HY-60 SERIES",
+      "price": 850000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass06.jpg",
+   "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
+      "models": [
+        { "name": "YH-HY-6064", "imageIndex": 0 },
+        { "name": "YH-HY-6026", "imageIndex": 1 },
+        { "name": "YH-HY-6042", "imageIndex": 2 },
+        { "name": "YH-HY-6046", "imageIndex": 3 },
+        { "name": "YH-HY-6062", "imageIndex": 4 },
+        { "name": "YH-HY-6022", "imageIndex": 5 },
+        { "name": "YH-HY-6024", "imageIndex": 6 },
+        { "name": "YH-HY-6025", "imageIndex": 7 },
+        { "name": "YH-HY-6066", "imageIndex": 8 },
+        { "name": "YH-HY-6044", "imageIndex": 9 },
+        { "name": "YH-HY-6045", "imageIndex": 10 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass06a.jpg",
+        "assets/Glass06b.jpg",
+        "assets/Glass06c.jpg",
+        "assets/Glass06d.jpg",
+        "assets/Glass06e.jpg",
+        "assets/Glass06f.jpg",
+        "assets/Glass06g.jpg",
+        "assets/Glass06h.jpg",
+        "assets/Glass06i.jpg",
+        "assets/Glass06j.jpg",
+        "assets/Glass06k.jpg",
+        "assets/Glass06l.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
+    },
+    {
+      "id": "g007",
+      "name": "YH-HY-08 SERIES",
+      "price": 850000,
+      "currency": "VND",
+      "category": "fashion",
+      "thumbnail": "assets/thumbnails/Glass07.jpg",
+      "features": ["AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
+      "models": [
+        { "name": "YH-HY-0855", "imageIndex": 0 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass07a.jpg",
+        "assets/Glass07b.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant for music and calls.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, hỗ trợ nghe nhạc và gọi điện.",
+      "longDescription": "AI-enabled smart glasses combining fashion and technology — your personal assistant, music player, and call manager in one.",
+      "longDescription_vi": "Kính thông minh tích hợp AI, kết hợp giữa thời trang và công nghệ — trợ lý cá nhân, trình phát nhạc và quản lý cuộc gọi, tất cả trong một."
+    },
+    {
+      "id": "g008",
+      "name": "AIMB-G2 SERIES",
+      "price": 1800000,
+      "currency": "VND",
+      "category": "camera",
+      "thumbnail": "assets/thumbnails/Glass08.jpg",
+    "features": ["Camera Full HD", "AI Assistant", "Play music", "Answer Phone Call"],
+      "features_vi": ["Camera Full HD", "Trợ lý AI", "Nghe nhạc", "Trả lời cuộc gọi"],
+      "models": [
+        { "name": "Black Frame", "imageIndex": 0 },
+        { "name": "White Frame", "imageIndex": 0 }
+      ],
+      "sizes": ["M", "L"],
+      "images": [
+        "assets/Glass08a.jpg",
+        "assets/Glass08b.jpg",
+        "assets/Glass08c.jpg",
+        "assets/Glass08d.jpg",
+        "assets/Glass08e.jpg",
+        "assets/Glass08f.jpg",
+        "assets/Glass08g.jpg",
+        "assets/Glass08h.jpg",
+        "assets/Glass08i.jpg",
+        "assets/Glass08j.jpg",
+        "assets/Glass08k.jpg",
+        "assets/Glass08l.jpg",
+        "assets/Glass08m.jpg",
+        "assets/Glass08n.jpg",
+        "assets/Glass08o.jpg",
+        "assets/Glass08p.jpg",
+        "assets/Glass08q.jpg",
+        "assets/Glass08r.jpg",
+        "assets/Glass08s.jpg"
+      ],
+      "shortDescription": "Smart fashion glasses with AI assistant, Full HD video recording, music, and call features.",
+      "shortDescription_vi": "Kính thời trang thông minh tích hợp trợ lý AI, quay video Full HD, nghe nhạc và nhận cuộc gọi.",
+      "longDescription": "Fashionable smart glasses with built-in AI assistant and Full HD camera — listen to music, answer calls, and capture every moment.",
+      "longDescription_vi": "Kính mắt thời trang tích hợp trợ lý ảo AI và camera Full HD — nghe nhạc, nhận cuộc gọi và ghi lại mọi khoảnh khắc."
+    }
+  ]
+}
